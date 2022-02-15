@@ -1,3 +1,3 @@
 export { Loader } from "./Loader";
-export { SolanaLogo } from "./SolanaLogo";
+export { SuplarLogo } from "./SuplarLogo";
 export { SelectAndConnectWalletButton } from "./SelectAndConnectWalletButton";
