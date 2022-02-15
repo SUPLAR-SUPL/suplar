@@ -3,7 +3,7 @@ import { FC } from "react";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
-import { SolanaLogo } from "components";
+import { SuplarLogo } from "components";
 import styles from "./index.module.css";
 
 export const HomeView: FC = ({}) => {
@@ -21,7 +21,7 @@ export const HomeView: FC = ({}) => {
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
-            <span className="text-lg font-bold">Caw Caw</span>
+            <span className="text-lg font-bold">Suplar</span>
           </div>
           <div className="flex-none">
             <WalletMultiButton className="btn btn-ghost" />
@@ -33,7 +33,9 @@ export const HomeView: FC = ({}) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl font-bold">
-                  Hello Solana <SolanaLogo /> World!
+                  Hello Solana 
+                  {/* <SuplarLogo/>  */}
+                  World!
                 </h1>
                 <p className="mb-5">
                   This scaffold includes awesome tools for rapid development and
