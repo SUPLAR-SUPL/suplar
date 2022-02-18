@@ -20,7 +20,7 @@ import { FC } from "react";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import * as anchor from "@project-serum/anchor";
 
-import { SolanaLogo } from "components";
+import { SuplarLogo } from "components";
 import { MintSection } from "./MintSection";
 import { config } from "./config";
 import styles from "./index.module.css";
@@ -72,7 +72,7 @@ export const CandyMachineMintView: FC = ({}) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl">
-                  Candy Machine Mint UI <SolanaLogo />
+                  Candy Machine Mint UI <SuplarLogo />
                 </h1>
 
                 <p className="mb-5">
