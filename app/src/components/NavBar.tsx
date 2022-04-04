@@ -50,7 +50,7 @@ export const NavBar = () => (
       </div>
     </div>
     <div className="navbar-end">
-      <Link href="/tweeter">
+      <Link href="/create">
         <a
           className="w-44 h-9 text-xl font-extrabold text-center text-white hidden lg:flex"
           href="#"
